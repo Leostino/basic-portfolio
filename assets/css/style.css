@@ -3,15 +3,36 @@
      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
  }
  #page-top {
-     background-color: white;
+     background-color: #ffffff;
+     border: 20px;
+     margin-left: 5px;
+     margin-right: 5px;
+     margin-top: 5px;
+     margin-bottom: 5px;
  }
  header {
+     border: 2px solid #ffffff;
+     background-color: #4aaaa5;
+     color: #ffffff;
+     margin-left: 200px;
+     margin-right: 850px;
+     margin-top: 5px;
+     margin-bottom: -20px;
 
-
- }
- section {
+    }
+ nav {
+    margin-left: 900px;
+    margin-right: 600;
+}
+section {
      margin-left: 200px;
      margin-right: 200px;
-     background-color: white;
-
+     background-color: #ffffff;
+ }
+ .heading {
+     color: #4aaaa5;
+     font-family:'Georgia', Times, Times New Roman, serif;
+ }
+ .first-heading {
+     text-align: center;
  }
