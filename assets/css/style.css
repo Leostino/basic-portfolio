@@ -1,23 +1,28 @@
  body {
      background-image: url(../images/Pattern/interlaced/interlaced.png);
      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     position: relative;
+     top:0px;
+     bottom:0px;
+     left:0px;
+     right:0px;
+     width: 960px;
+     height: 500px;
  }
  #page-top {
      box-sizing: border-box;
      display: block;
      position: relative;
-     top: -5px;
+     top: -2px;
      bottom: 50px;
-     left:3px;
-     right: 3px;
-     width: 400;
+     left:-10px;
+     right: -10px;
+     width: 100em;
      height: 82px;
      background-color: #ffffff;
-     margin-left: 5px;
-     margin-right: 5px;
      margin-top: -5px;
      margin-bottom: 5px;
- }
+    }
  header {
      position: absolute;
      width: 20%;
@@ -32,22 +37,33 @@
 
     }
  nav {
-     position: absolute;
+     position: relative;
      width: 20%;
      top: 30px;
      border-bottom: 20px solid #ffffff;
     margin-left: 900px;
     margin-right: 600;
-} section {
+    } 
+
+section {
     box-sizing: border-box;
     position: relative;
     width: 960px;
-    height:400px;
-    top: 10px;
-    left:210px;
+    height:350px;
+    top: 20px;
+    left:190px;
     background-color: #ffffff;
     padding-top: 5px;
     padding-left: 20px;
+}
+#heading-border {
+    box-sizing: border-box;
+    width: 870px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border-bottom: 2px solid lightgray;
+    margin-bottom: 30px;
 }
 img {
     float:left;
@@ -58,6 +74,7 @@ img {
      color: #4aaaa5;
      font-family:'Georgia', Times, Times New Roman, serif;
  }
+ 
  .first-heading {
      text-align: center;
  }
@@ -65,4 +82,27 @@ img {
      position: relative;
      margin-left: 10px;
      margin-right: 10px;
+ }
+ .footer-item{
+    box-sizing: border-box;
+    position: relative;
+    top: 60px;
+    bottom: -5px;
+    left:-10px;
+    right: -10px;
+    width: 100em;
+    height: 60px;
+    background-color: #666666;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    border-top: 5px solid #4aaaa5;
+    text-align: center;
+ }
+ #copyright {
+     box-sizing: border-box;
+     position: absolute;
+     width: 5%;
+     height: 5%;
+     left: 100px;
+     top: 20px;
  }
