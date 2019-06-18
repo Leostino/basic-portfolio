@@ -3,36 +3,66 @@
      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
  }
  #page-top {
+     box-sizing: border-box;
+     display: block;
+     position: relative;
+     top: -5px;
+     bottom: 50px;
+     left:3px;
+     right: 3px;
+     width: 400;
+     height: 82px;
      background-color: #ffffff;
-     border: 20px;
      margin-left: 5px;
      margin-right: 5px;
-     margin-top: 5px;
+     margin-top: -5px;
      margin-bottom: 5px;
  }
  header {
-     border: 2px solid #ffffff;
+     position: absolute;
+     width: 20%;
+     height: 100%;
+     top: -5px;
      background-color: #4aaaa5;
      color: #ffffff;
      margin-left: 200px;
      margin-right: 850px;
      margin-top: 5px;
-     margin-bottom: -20px;
+     margin-bottom: -40px;
 
     }
  nav {
+     position: absolute;
+     width: 20%;
+     top: 30px;
+     border-bottom: 20px solid #ffffff;
     margin-left: 900px;
     margin-right: 600;
+} section {
+    box-sizing: border-box;
+    position: relative;
+    width: 960px;
+    height:400px;
+    top: 10px;
+    left:210px;
+    background-color: #ffffff;
+    padding-top: 5px;
+    padding-left: 20px;
 }
-section {
-     margin-left: 200px;
-     margin-right: 200px;
-     background-color: #ffffff;
- }
+img {
+    float:left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
  .heading {
      color: #4aaaa5;
      font-family:'Georgia', Times, Times New Roman, serif;
  }
  .first-heading {
      text-align: center;
+ }
+ article{
+     position: relative;
+     margin-left: 10px;
+     margin-right: 10px;
  }
