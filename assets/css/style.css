@@ -128,7 +128,7 @@ img {
  #portfolio-section {
     box-sizing: border-box;
     width: 960px;
-    height: 600px;
+    height: 770px;
     background-color: #ffffff;
     padding-top: 10px;
     padding-left: 20px;
@@ -157,8 +157,96 @@ img {
     border-top: 2px solid gray;
     border-left: 2px solid gray;
     border-right: 2px solid gray;
-    height: 450px;
+    height: 620px;
     padding-top: 10px;
     display:flex;
     flex-flow: column wrap;
+ }
+ .heading-img {
+     color: #ffffff;
+ }
+ #div-hang {
+border-bottom: 1px solid gray;
+border-top: 1px solid gray;
+border-left: 1px solid gray;
+border-right: 1px solid gray;
+width:150px;
+ }
+ #hangman {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    width:200px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: #4aaaa5;
+ }
+ #div-rpg {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    width:150px;
+ }
+ #rpg-game {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    width:200px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: #4aaaa5;
+ }
+ #div-trivia {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    width:150px;
+ }
+ #trivia {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    width:200px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: #4aaaa5;
+ }
+ #div-rutger {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    width:150px;
+ }
+ #rutger {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    width:220px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: #4aaaa5;
+ }
+ #div-rock {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    width:150px;
+ }
+ #rock {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    width:220px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: #4aaaa5;
  }
