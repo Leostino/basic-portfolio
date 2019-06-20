@@ -102,7 +102,7 @@ img {
  #contact-section {
     box-sizing: border-box;
     width: 960px;
-    height:350px;
+    height:400px;
     background-color: #ffffff;
     padding-top: 10px;
     padding-left: 20px;
@@ -124,4 +124,41 @@ img {
  }
  #button {
      background-color:#4aaaa5;
+ }
+ #portfolio-section {
+    box-sizing: border-box;
+    width: 960px;
+    height: 600px;
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-left: 190px;
+    margin-top: 20px;
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+
+ }
+ #portfolio-heading {
+    box-sizing: border-box;
+    width: 870px;
+    top: 10px;
+    left: 10px;
+    border-bottom: 2px solid lightgray;
+    margin-bottom: 20px;
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+ }
+ #images {
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    height: 450px;
+    padding-top: 10px;
+    display:flex;
+    flex-flow: column wrap;
  }
