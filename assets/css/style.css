@@ -36,21 +36,21 @@
     display:flex;
     justify-content: space-between;
     } 
-    #about-link {
+    .about-link {
         width: 200px;
         height: 20px;
         margin-left: 0px;
         border-right: 2px solid gray;
         text-align: center;
     }
-    #portfolio-link {
+    .portfolio-link {
         width: 200px;
         height: 20px;
         margin-left: 15px;
         border-right: 2px solid gray;
         text-align: center;
     }
-    #contact-link {
+    .contact-link {
         width:100px;
         height: 20px;
         margin-left: 35px;
@@ -98,4 +98,30 @@ img {
     justify-content:center;
     align-items: center;
 
+ }
+ #contact-section {
+    box-sizing: border-box;
+    width: 960px;
+    height:350px;
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-left: 190px;
+    margin-top: 20px;
+ }
+ #contact-heading {
+    box-sizing: border-box;
+    width: 870px;
+    top: 10px;
+    left: 10px;
+    border-bottom: 2px solid lightgray;
+    margin-bottom: 20px;
+ }
+ form {
+     padding-top: 1px;
+     margin-top: -30px;
+    margin-bottom: -20px;
+ }
+ #button {
+     background-color:#4aaaa5;
  }
