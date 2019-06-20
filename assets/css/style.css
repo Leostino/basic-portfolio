@@ -128,17 +128,12 @@ img {
  #portfolio-section {
     box-sizing: border-box;
     width: 960px;
-    height: 770px;
+    height: 650px;
     background-color: #ffffff;
     padding-top: 10px;
     padding-left: 20px;
     margin-left: 190px;
     margin-top: 20px;
-    border-bottom: 2px solid gray;
-    border-top: 2px solid gray;
-    border-left: 2px solid gray;
-    border-right: 2px solid gray;
-
  }
  #portfolio-heading {
     box-sizing: border-box;
@@ -147,106 +142,74 @@ img {
     left: 10px;
     border-bottom: 2px solid lightgray;
     margin-bottom: 20px;
-    border-bottom: 2px solid gray;
-    border-top: 2px solid gray;
-    border-left: 2px solid gray;
-    border-right: 2px solid gray;
  }
  #images {
-    border-bottom: 2px solid gray;
-    border-top: 2px solid gray;
-    border-left: 2px solid gray;
-    border-right: 2px solid gray;
-    height: 620px;
+    height: 500px;
     padding-top: 10px;
     display:flex;
     flex-flow: column wrap;
+    position: relative;
  }
  .heading-img {
      color: #ffffff;
  }
  #div-hang {
-border-bottom: 1px solid gray;
-border-top: 1px solid gray;
-border-left: 1px solid gray;
-border-right: 1px solid gray;
 width:150px;
  }
  #hangman {
-    border-bottom: 1px solid gray;
-    border-top: 1px solid gray;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
     width:200px;
     text-align: center;
     margin-left: 10px;
     background-color: #4aaaa5;
+    position: absolute;
+    top:98px;
  }
  #div-rpg {
-    border-bottom: 1px solid gray;
-    border-top: 1px solid gray;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
     width:150px;
+    margin-top: 30px;
  }
  #rpg-game {
-    border-bottom: 1px solid gray;
-    border-top: 1px solid gray;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
     width:200px;
     text-align: center;
     margin-left: 10px;
     background-color: #4aaaa5;
+    position: absolute;
+    top:261px;
  }
  #div-trivia {
-    border-bottom: 1px solid gray;
-    border-top: 1px solid gray;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
     width:150px;
+    margin-top:30px;
  }
  #trivia {
-    border-bottom: 1px solid gray;
-    border-top: 1px solid gray;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
     width:200px;
     text-align: center;
     margin-left: 10px;
     background-color: #4aaaa5;
+    position: absolute;
+    top:426px;
  }
  #div-rutger {
-    border-bottom: 1px solid gray;
-    border-top: 1px solid gray;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
     width:150px;
  }
  #rutger {
-    border-bottom: 1px solid gray;
-    border-top: 1px solid gray;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
     width:220px;
     text-align: center;
     margin-left: 10px;
     background-color: #4aaaa5;
+    position: absolute;
+    right:240px;
+    top:90px;
  }
  #div-rock {
-    border-bottom: 1px solid gray;
-    border-top: 1px solid gray;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
     width:150px;
+    margin-top: 30px;
  }
  #rock {
-    border-bottom: 1px solid gray;
-    border-top: 1px solid gray;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
     width:220px;
     text-align: center;
     margin-left: 10px;
     background-color: #4aaaa5;
+    position: absolute;
+    right:240px;
+    top:282px;
  }
